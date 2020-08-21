@@ -1,0 +1,26 @@
+*.class
+*.log
+.idea
+*.iml
+
+# sbt specific
+dist/*
+target/
+build/
+out/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+credentials.sbt
+.gradle
+
+# Scala-IDE specific
+.scala_dependencies
+test.pq
+parquetsink.pq
+*.pq.crc
+.kotlintest
+parquetrt.pq
+parquet.pq
+pizzas.avro
